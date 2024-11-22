@@ -1,9 +1,9 @@
 package Problem1;
 
 public class Person {
-    private String myName;
-    private int myAge;
-    private String myGender;
+    protected String myName;
+    protected int myAge;
+    protected String myGender;
 
     public Person(String myName, int myAge, String myGender) {
         this.myName = myName;

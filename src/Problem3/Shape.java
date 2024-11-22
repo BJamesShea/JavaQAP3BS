@@ -1,7 +1,7 @@
 package Problem3;
 
 public abstract class Shape {
-    private String name;
+    protected String name;
 
 
     public Shape(String name) {
